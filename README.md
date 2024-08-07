@@ -70,10 +70,12 @@ The commander process reads user commands and sends them to the process manager.
 
 ```c
 void commander_process(int writePipe);
+```
 
 ### Process Manager
 ```c
 void process_manager(int readPipe);
+```
 
 ### Commander Process
 
@@ -81,7 +83,7 @@ void process_manager(int readPipe);
 void set(int value);
 void add(int value);
 void decrement(int value);
-
+```
 ### Commander Process
 
 ```c
@@ -92,6 +94,7 @@ void unblock();
 void schedule();
 void print_system_state();
 bool load_program_from_file(char stringArg[], Instruction *program, int *programLength);
+```
 
 
 
