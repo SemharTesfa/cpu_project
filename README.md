@@ -1,8 +1,7 @@
-# Process Management Simulation Project
+# CPU Simulation Project
 
 ## Description
-
-This project simulates a basic process management system. It involves two main processes: the commander process and the process manager process. The commander process reads user commands and sends them to the process manager through a pipe. The process manager executes these commands to manage the state of various processes.
+This project is a simulation of a basic CPU and process management system. It involves two main processes: the commander process and the process manager process. The commander process collects user commands and relays them to the process manager via a pipe. The process manager then executes these commands to manage the state of various processes. The project includes functionality to set, add, and subtract CPU values, manage process states (running, ready, blocked, and terminated), and execute instructions from files.
 
 ## Authors
 
